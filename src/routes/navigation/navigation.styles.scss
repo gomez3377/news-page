@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    width: 1110px;
+    height: 39.9px;
+    margin: 89px auto 55.1px;
+  img {
+    height:100%; 
+  }
+
+  ul {
+    display: flex; // make the menu items display horizontally
+    list-style: none; // remove default bullet points
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin-right: 40px; // add margin between menu items
+    }
+    &:last-child {
+        margin-right: 0; // remove margin for last menu item
+      }
+  }
+}

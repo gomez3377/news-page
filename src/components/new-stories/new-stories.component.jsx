@@ -1,13 +1,14 @@
 import { newArticles } from "./new-stories.data"
+import './new-stories.styles.scss'
 
 const NewStories = () => {
 
 
   return (
-    <div>
-
-{newArticles.map(article => <div>
-    <h2>{article.title}</h2>
+    <div className="new-stories">
+      <h2>New</h2>
+{newArticles.map(article => <div className="new-article">
+    <h4>{article.title}</h4>
     <p>{article.summary}</p>
 </div>)}
 

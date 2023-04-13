@@ -1,10 +1,10 @@
-import React from "react";
 import Button from "../button/button.component";
 import MainArticleImg from '../../assets/images/image-web-3-desktop.jpg'
+import './main-article.styles.scss'
 
 const MainArticle = () => {
   return (
-    <div>
+    <div className="main-article">
         <img src={MainArticleImg} alt="main-article-img" />
       <h1>The Bright Future of Web 3.0?</h1>
       <p>

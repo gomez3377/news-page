@@ -1,6 +1,6 @@
 export const newArticles = [
     {
-        title:'New Hydrogen VS Electric Cars',
+        title:'Hydrogen VS Electric Cars',
         summary:' Will hydrogen-fueled cars ever catch up to EVs?'
     },
     {
